@@ -27,7 +27,7 @@ function viewCart(){
 
     for (var i in cart){
     	if (parseInt(i) === (cart.length-1)){
-    		string += `and ${Object.keys(cart[i])} at $${Object.values(cart[i])}.`;
+    		string += `${Object.keys(cart[i])} at $${Object.values(cart[i])}.`;
     		console.log(string);
     	}
     	else {
