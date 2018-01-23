@@ -34,7 +34,7 @@ function viewCart(){
       string += `${Object.keys(cart[i])} at $${Object.values(cart[i])}, `;
     	}
     }
-    
+
   }
 }
 
